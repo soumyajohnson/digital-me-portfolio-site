@@ -1,7 +1,7 @@
 
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Link, Github } from "lucide-react";
+import { ExternalLink, Github, Code } from "lucide-react";
 
 const projects = [
   {
@@ -56,10 +56,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-padding bg-gray-50">
+    <section id="projects" className="section-padding bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Featured Projects</h2>
+          <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Projects</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Here are some of the projects I've worked on that showcase my skills and expertise.
             Each project represents different challenges and solutions.
@@ -68,39 +68,40 @@ const Projects = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
-            <Card key={idx} className="overflow-hidden bg-white shadow-md hover:shadow-lg transition-shadow">
-              <div className="h-48 overflow-hidden">
+            <Card key={idx} className="project-card bg-card border-none overflow-hidden shadow-lg shadow-black/20">
+              <div className="h-48 overflow-hidden relative">
+                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90 z-10"></div>
                 <img 
                   src={project.image} 
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform hover:scale-105 duration-500"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <CardContent className="p-6">
+              <CardContent className="p-6 relative z-20 -mt-8">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-muted-foreground text-sm mb-4">
+                <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, tagIdx) => (
                     <span 
                       key={tagIdx}
-                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary"
+                      className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-secondary/50 text-primary"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="px-6 py-4 border-t flex justify-between">
-                <Button asChild variant="outline" size="sm">
+              <CardFooter className="px-6 py-4 border-t border-border flex justify-between">
+                <Button asChild variant="ghost" size="sm" className="hover:bg-secondary/30 hover:text-primary">
                   <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    <Link className="h-4 w-4" /> Live Demo
+                    <ExternalLink className="h-4 w-4" /> Demo
                   </a>
                 </Button>
-                <Button asChild variant="outline" size="sm">
+                <Button asChild variant="ghost" size="sm" className="hover:bg-secondary/30 hover:text-primary">
                   <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    <Github className="h-4 w-4" /> Source Code
+                    <Github className="h-4 w-4" /> Code
                   </a>
                 </Button>
               </CardFooter>
@@ -109,9 +110,9 @@ const Projects = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button asChild variant="outline" size="lg" className="rounded-full">
+          <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
             <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-              <Github className="h-5 w-5" /> View More Projects
+              <Code className="h-5 w-5" /> View All Projects
             </a>
           </Button>
         </div>

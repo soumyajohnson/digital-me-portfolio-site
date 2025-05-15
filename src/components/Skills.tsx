@@ -37,10 +37,10 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="section-padding bg-gray-50">
+    <section id="skills" className="section-padding bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">My Skills</h2>
+          <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Skills</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             I've acquired and honed these skills over the years through professional work,
             personal projects, and continuous learning.
@@ -49,19 +49,19 @@ const Skills = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => (
-            <Card key={idx} className="overflow-hidden bg-white shadow-md hover:shadow-lg transition-shadow">
+            <Card key={idx} className="overflow-hidden bg-card border-none shadow-lg shadow-black/20">
               <CardContent className="p-6">
-                <h3 className="text-xl font-medium mb-6 pb-2 border-b">
+                <h3 className="text-xl font-medium mb-6 pb-2 border-b border-border">
                   {category.category}
                 </h3>
                 <div className="space-y-5">
                   {category.skills.map((skill, skillIdx) => (
                     <div key={skillIdx}>
                       <div className="flex justify-between items-center mb-1">
-                        <span className="font-medium">{skill.name}</span>
+                        <span className="font-medium text-foreground">{skill.name}</span>
                         <span className="text-sm text-muted-foreground">{skill.level}%</span>
                       </div>
-                      <Progress value={skill.level} className="h-2" />
+                      <Progress value={skill.level} className="h-2" indicatorClassName="bg-primary" />
                     </div>
                   ))}
                 </div>
@@ -70,28 +70,28 @@ const Skills = () => {
           ))}
         </div>
         
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+        <div className="mt-16 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">React</span>
           </div>
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">TypeScript</span>
           </div>
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">Next.js</span>
           </div>
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">Tailwind CSS</span>
           </div>
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">Node.js</span>
           </div>
-          <div className="flex flex-col items-center p-4 bg-white rounded-lg shadow-sm">
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">Git</span>
           </div>
