@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 
 const Hero = () => {
   const [text, setText] = useState("");
-  const fullText = "Frontend Developer";
+  const fullText = "Computer Science Engineer";
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -30,7 +30,7 @@ const Hero = () => {
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
-          Hi, I'm <span className="text-primary">John Doe</span>
+          Hi, I'm <span className="text-primary">Soumya Johnson</span>
         </h1>
         
         <div className="h-12 mb-8">
@@ -40,8 +40,8 @@ const Hero = () => {
         </div>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          I create exceptional digital experiences that are fast, accessible,
-          visually appealing, and responsive.
+          I create exceptional digital experiences and solutions with expertise in 
+          full-stack development and AI applications.
         </p>
         
         <div className="flex flex-wrap gap-4 justify-center mb-12">
@@ -57,7 +57,7 @@ const Hero = () => {
         
         <div className="flex justify-center gap-4 mb-12">
           <a 
-            href="https://github.com/johndoe"
+            href="https://github.com/soumyaj"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"
@@ -66,7 +66,7 @@ const Hero = () => {
             <Github className="h-6 w-6" />
           </a>
           <a 
-            href="https://linkedin.com/in/johndoe"
+            href="https://linkedin.com/in/soumyajohnson"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"
@@ -75,7 +75,7 @@ const Hero = () => {
             <Linkedin className="h-6 w-6" />
           </a>
           <a 
-            href="mailto:john.doe@example.com"
+            href="mailto:soumyajohnson97@gmail.com"
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"
             aria-label="Email"
           >
@@ -99,10 +99,10 @@ function Portfolio() {
   const [isAwesome, setIsAwesome] = useState(true);
   
   useEffect(() => {
-    document.title = "John Doe | Frontend Developer";
+    document.title = "Soumya Johnson | Computer Science Engineer";
   }, []);
 
-  const skills = ["React", "TypeScript", "Tailwind CSS", "Next.js"];
+  const skills = ["Java", "Python", "C/C++", "JavaScript", "React", "SAP"];
   
   return (
     <div className="portfolio">

@@ -4,33 +4,33 @@ import { Progress } from "@/components/ui/progress";
 
 const skillCategories = [
   {
-    category: "Frontend Development",
+    category: "Programming Languages",
     skills: [
-      { name: "React", level: 95 },
-      { name: "TypeScript", level: 90 },
-      { name: "CSS/SCSS", level: 85 },
-      { name: "Next.js", level: 80 },
-      { name: "Tailwind CSS", level: 90 },
+      { name: "Java", level: 95 },
+      { name: "Python", level: 90 },
+      { name: "C/C++", level: 88 },
+      { name: "JavaScript", level: 85 },
+      { name: "HTML/CSS", level: 85 },
     ],
   },
   {
-    category: "Backend Development",
+    category: "Frameworks & Libraries",
     skills: [
-      { name: "Node.js", level: 75 },
-      { name: "Express", level: 70 },
-      { name: "MongoDB", level: 65 },
-      { name: "REST APIs", level: 85 },
-      { name: "GraphQL", level: 60 },
+      { name: "React", level: 80 },
+      { name: "Express.js", level: 75 },
+      { name: "Spring Boot", level: 85 },
+      { name: "REST APIs", level: 90 },
+      { name: "GraphQL", level: 70 },
     ],
   },
   {
-    category: "Tools & Others",
+    category: "Tools & Platforms",
     skills: [
-      { name: "Git/GitHub", level: 90 },
-      { name: "Webpack", level: 75 },
-      { name: "Jest", level: 70 },
-      { name: "CI/CD", level: 65 },
-      { name: "Docker", level: 50 },
+      { name: "SAP Commerce Cloud", level: 90 },
+      { name: "NLP", level: 80 },
+      { name: "Git/GitHub", level: 88 },
+      { name: "MongoDB/SQL", level: 85 },
+      { name: "Docker", level: 75 },
     ],
   },
 ];
@@ -42,8 +42,8 @@ const Skills = () => {
         <div className="text-center mb-12">
           <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Skills</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            I've acquired and honed these skills over the years through professional work,
-            personal projects, and continuous learning.
+            I've acquired and honed these skills through professional work,
+            research, and continuous learning in computer science and engineering.
           </p>
         </div>
         
@@ -72,28 +72,28 @@ const Skills = () => {
         
         <div className="mt-16 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
           <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" className="h-12 w-12 mb-2" />
+            <span className="text-sm font-medium">Java</span>
+          </div>
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="h-12 w-12 mb-2" />
+            <span className="text-sm font-medium">Python</span>
+          </div>
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" className="h-12 w-12 mb-2" />
+            <span className="text-sm font-medium">C/C++</span>
+          </div>
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" className="h-12 w-12 mb-2" />
+            <span className="text-sm font-medium">JavaScript</span>
+          </div>
+          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="h-12 w-12 mb-2" />
             <span className="text-sm font-medium">React</span>
           </div>
           <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="h-12 w-12 mb-2" />
-            <span className="text-sm font-medium">TypeScript</span>
-          </div>
-          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="h-12 w-12 mb-2" />
-            <span className="text-sm font-medium">Next.js</span>
-          </div>
-          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind CSS" className="h-12 w-12 mb-2" />
-            <span className="text-sm font-medium">Tailwind CSS</span>
-          </div>
-          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="h-12 w-12 mb-2" />
-            <span className="text-sm font-medium">Node.js</span>
-          </div>
-          <div className="flex flex-col items-center p-4 bg-card rounded-lg shadow-lg shadow-black/20 hover:bg-secondary/20 transition-colors">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" className="h-12 w-12 mb-2" />
-            <span className="text-sm font-medium">Git</span>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" className="h-12 w-12 mb-2" />
+            <span className="text-sm font-medium">MongoDB</span>
           </div>
         </div>
       </div>

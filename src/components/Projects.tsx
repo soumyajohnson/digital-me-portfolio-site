@@ -5,52 +5,62 @@ import { ExternalLink, Github, Code } from "lucide-react";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with product listings, cart functionality, user authentication, and payment integration.",
-    image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxMHx8ZWNvbW1lcmNlfGVufDB8fHx8MTY5MDQ2NzA0OHww&auto=format&fit=crop&w=500&q=60",
-    tags: ["React", "Next.js", "Stripe", "Tailwind CSS"],
+    title: "Video-Based Cognitive Narrative Classifier",
+    description: "Created a live video system for detecting and interpreting narrative structure data to identify cognitive impairments. Integrated gesture therapist interaction data in challenging environments.",
+    image: "https://images.unsplash.com/photo-1633419798822-8c42c97d09e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxMHx8dmlkZW8lMjBhbmFseXNpc3xlbnwwfHx8fDE2OTA0NjcwNDh8MA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Python", "Computer Vision", "AI", "NLP"],
     liveLink: "#",
-    repoLink: "#"
+    repoLink: "#",
+    date: "Jun'27 - Apr'25"
   },
   {
-    title: "Task Management App",
-    description: "A productivity application for managing tasks with features like drag-and-drop organization, reminders, and collaborative workspaces.",
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw5fHx0YXNrJTIwbWFuYWdlbWVudHxlbnwwfHx8fDE2OTA0NjcxMjN8MA&auto=format&fit=crop&w=500&q=60",
-    tags: ["TypeScript", "React", "Redux", "Firebase"],
+    title: "EmotCare - Voice-Interactive Mental Health Assistant",
+    description: "Built a voice-interactive system using conversational technology to provide personalized therapy. Used OpenAI GPT for real-time speech-to-text, NLP features processing and emotional support.",
+    image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw5fHxtZW50YWwlMjBoZWFsdGh8ZW58MHx8fHwxNjkwNDY3MTIzfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["NLP", "GPT", "Speech Recognition", "Healthcare"],
     liveLink: "#",
-    repoLink: "#"
+    repoLink: "#",
+    date: "Jun'27 - Apr'25"
   },
   {
-    title: "Weather Dashboard",
-    description: "A weather application that provides current and forecasted weather data for locations worldwide, with interactive maps and graphs.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHx3ZWF0aGVyfGVufDB8fHx8MTY5MDQ2NzE4M3ww&auto=format&fit=crop&w=500&q=60",
-    tags: ["React", "API Integration", "Chart.js", "Geolocation"],
+    title: "Real-Time Object Detection Using Vision to Aid People With Visual Agnosia",
+    description: "Developed a real-time object detection system using YODAM technology to assist individuals with visual agnosia. Created innovative deep feature mapping techniques.",
+    image: "https://images.unsplash.com/photo-1590856029826-c7a73142d163?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxvYmplY3QlMjBkZXRlY3Rpb258ZW58MHx8fHwxNjkwNDY3MTgzfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Computer Vision", "Deep Learning", "Object Detection", "Accessibility"],
     liveLink: "#",
-    repoLink: "#"
+    repoLink: "#",
+    date: "Aug'24 - Dec'24"
   },
   {
-    title: "Social Media Dashboard",
-    description: "A comprehensive dashboard for managing multiple social media accounts, with analytics, content scheduling, and performance tracking.",
-    image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw0fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE2OTA0NjcyNTJ8MA&auto=format&fit=crop&w=500&q=60",
-    tags: ["Next.js", "Auth0", "REST APIs", "Recharts"],
+    title: "Delivery Impact Day Dashboard",
+    description: "Led a team of 25 volunteers to build applications for the visually challenged. Contributed to Deloitte's global initiative of offering tech solutions for accessibility.",
+    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw0fHx2b2x1bnRlZXJ8ZW58MHx8fHwxNjkwNDY3MjUyfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Accessibility", "Team Leadership", "Web Applications"],
     liveLink: "#",
-    repoLink: "#"
+    repoLink: "#",
+    date: "Jun'22 - May'23"
+  }
+];
+
+// Research publications
+const publications = [
+  {
+    title: "A fully convolutional deep neural network for lung cancer identification",
+    venue: "UMAP",
+    date: "Jun'20 - May'20",
+    description: "Developed a revolutionary deep learning approach to accurately identify lung cancer from medical images with higher than average accuracy."
   },
   {
-    title: "Blogging Platform",
-    description: "A modern blogging platform with rich text editing, image uploads, categorization, and SEO optimization tools.",
-    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxibG9nZ2luZ3xlbnwwfHx8fDE2OTA0NjczMDl8MA&auto=format&fit=crop&w=500&q=60",
-    tags: ["React", "Node.js", "MongoDB", "AWS S3"],
-    liveLink: "#",
-    repoLink: "#"
+    title: "A Novel Approach to Understand the Paper of Chatbots for Medical Assistance",
+    venue: "UEMCON",
+    date: "Oct'18 - Dec'18",
+    description: "Conducted an AI-based medical chatting, integrating NLP and AME to process text into sentences with increased comprehension."
   },
   {
-    title: "Finance Tracker",
-    description: "A personal finance application for tracking expenses, setting budgets, and visualizing spending patterns with interactive charts.",
-    image: "https://images.unsplash.com/photo-1579621970588-a35d0e7ab9b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwyfHxmaW5hbmNlfGVufDB8fHx8MTY5MDQ2NzM1OXww&auto=format&fit=crop&w=500&q=60",
-    tags: ["TypeScript", "Chart.js", "Firebase", "PWA"],
-    liveLink: "#",
-    repoLink: "#"
+    title: "Embedur as a Personal Assistant",
+    venue: "UAMR",
+    date: "Jan'18 - May'18",
+    description: "Developed an AI-powered interactive persona as a personal assistant, integrating unique presentation and using NLP and design AI."
   }
 ];
 
@@ -59,10 +69,10 @@ const Projects = () => {
     <section id="projects" className="section-padding bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
-          <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Projects</h2>
+          <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Projects & Research</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Here are some of the projects I've worked on that showcase my skills and expertise.
-            Each project represents different challenges and solutions.
+            Here are some of the projects and research publications I've worked on that showcase my 
+            skills in computer science, AI, and accessibility solutions.
           </p>
         </div>
         
@@ -79,6 +89,7 @@ const Projects = () => {
               </div>
               <CardContent className="p-6 relative z-20 -mt-8">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <p className="text-xs text-primary mb-2">{project.date}</p>
                 <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
                   {project.description}
                 </p>
@@ -109,9 +120,25 @@ const Projects = () => {
           ))}
         </div>
         
+        <h3 className="text-2xl font-bold mt-16 mb-8 text-center">Research Publications</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {publications.map((pub, idx) => (
+            <Card key={idx} className="bg-card border-none overflow-hidden shadow-lg shadow-black/20">
+              <CardContent className="p-6">
+                <h3 className="text-lg font-bold mb-2">{pub.title}</h3>
+                <p className="text-xs text-primary mb-2">{pub.venue} | {pub.date}</p>
+                <p className="text-muted-foreground text-sm">
+                  {pub.description}
+                </p>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+        
         <div className="text-center mt-12">
           <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
-            <a href="https://github.com/johndoe" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <a href="https://github.com/soumyaj" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
               <Code className="h-5 w-5" /> View All Projects
             </a>
           </Button>

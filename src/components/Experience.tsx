@@ -4,36 +4,36 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    role: "Senior Frontend Developer",
-    company: "Tech Innovators Inc.",
-    duration: "Jan 2022 - Present",
-    description: "Led the frontend development team in building a modern SaaS platform using React, TypeScript, and Tailwind CSS. Implemented CI/CD pipelines, reduced bundle size by 40%, and improved load times by 30%. Mentored junior developers and conducted code reviews.",
+    role: "Senior E-commerce Developer",
+    company: "CGI, Hyderabad",
+    duration: "Oct'21 - July'24",
+    description: "Delivered over 30 production releases, designing new features and optimizing e-commerce platforms using SAP Cloud Commerce tools and data-supporting IoT device's revenue growth to $8.1 billion, a 10% increase year-over-year.",
     achievements: [
-      "Revamped the entire UI/UX, resulting in a 25% increase in user engagement",
-      "Led the migration from class components to functional components with hooks",
-      "Created a design system and component library used across multiple projects"
+      "Enhanced user flows and E-Commerce websites, aligning designs to product and UI specifications, increasing traffic and user engagement",
+      "Led production go-live events, ensuring seamless deployment and post-release issue resolution with 99% efficiency",
+      "Mentored offshore teams, fostered collaboration and executed knowledge transfer sessions"
     ]
   },
   {
-    role: "Frontend Developer",
-    company: "Digital Solutions Ltd.",
-    duration: "Jun 2019 - Dec 2021",
-    description: "Developed and maintained multiple client-facing applications. Created responsive web designs and implemented frontend architecture. Worked closely with UI/UX designers to implement pixel-perfect interfaces.",
+    role: "AEM Front-End Developer",
+    company: "Optum, Hyderabad",
+    duration: "Dec'20 - Oct'21",
+    description: "Successfully delivered multiple production releases, creating and deploying interactive forms using AEM Forms achieving a 100% functionality delivery rate.",
     achievements: [
-      "Built a real-time dashboard that reduced reporting time by 60%",
-      "Integrated payment gateways in the e-commerce platform",
-      "Optimized frontend performance, improving Google Lighthouse score from 65 to 95"
+      "Integrated interactive forms with AEM platform",
+      "Optimized front-end performance for improved user experience",
+      "Collaborated with design and backend teams for seamless integration"
     ]
   },
   {
-    role: "Junior Web Developer",
-    company: "WebCreators Co.",
-    duration: "Aug 2017 - May 2019",
-    description: "Participated in the development of responsive websites for various clients. Created and maintained WordPress themes and plugins. Collaborated with the design team to implement visual elements.",
+    role: "Teaching Assistantship",
+    company: "Pennsylvania State University",
+    duration: "Aug'24 - Present",
+    description: "Supported faculty professor in developing course materials, facilitating lab sessions, and designing assignments to enhance the learning experience.",
     achievements: [
-      "Built 15+ responsive websites for clients across different industries",
-      "Developed a custom WordPress plugin for enhanced SEO capabilities",
-      "Reduced average page load time by 40% through optimization techniques"
+      "Provided guidance to students in OOP concepts",
+      "Developed lab exercises for practical application",
+      "Assisted in grading and providing feedback on assignments"
     ]
   }
 ];

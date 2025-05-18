@@ -4,45 +4,45 @@ import { Book, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "Master of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2015 - 2017",
-    description: "Specialized in Web Technologies and Human-Computer Interaction. Thesis focused on optimizing frontend performance for mobile web applications.",
-    courses: ["Advanced Web Development", "User Experience Design", "Mobile Computing", "Data Visualization"]
+    degree: "M.S in Computer Science",
+    institution: "Pennsylvania State University",
+    duration: "2023 - 2025 (Expected)",
+    description: "Current GPA: 3.67/4.0. Focusing on Machine Learning, AI applications, and Computer Vision. Conducting research on cognitive narrative classifiers and healthcare applications.",
+    courses: ["Advanced Machine Learning", "Computer Vision", "Natural Language Processing", "Cloud Computing"]
   },
   {
-    degree: "Bachelor of Science in Software Engineering",
-    institution: "University of California, Berkeley",
-    duration: "2011 - 2015",
-    description: "Graduated with honors and received the Outstanding Student in Software Engineering award. Participated in multiple hackathons and coding competitions.",
-    courses: ["Object-Oriented Programming", "Database Systems", "Web Development", "Software Engineering Principles"]
+    degree: "B.Tech in Computer Science and Engineering",
+    institution: "SRM Institute of Science and Technology, Chennai",
+    duration: "2015 - 2019",
+    description: "Graduated with a GPA of 9.1/10. Focused on software engineering and AI applications. Participated in multiple hackathons and research projects.",
+    courses: ["Data Structures & Algorithms", "Artificial Intelligence", "Web Technologies", "Database Management"]
   }
 ];
 
 const certifications = [
   {
-    name: "AWS Certified Developer",
-    issuer: "Amazon Web Services",
+    name: "AI Engineer",
+    issuer: "Microsoft",
+    date: "2023",
+    credentialId: "MS-AIE-12345"
+  },
+  {
+    name: "SAP Commerce Cloud Developer",
+    issuer: "SAP",
     date: "2022",
-    credentialId: "AWS-DEV-12345"
+    credentialId: "SAP-CCD-98765"
   },
   {
-    name: "Professional Frontend Developer",
-    issuer: "Meta",
+    name: "Certified Python Professional",
+    issuer: "Python Institute",
     date: "2021",
-    credentialId: "MFD-98765"
+    credentialId: "PYP-54321"
   },
   {
-    name: "Certified JavaScript Developer",
-    issuer: "JavaScript Certification Board",
+    name: "Full Stack Web Development",
+    issuer: "Udemy",
     date: "2020",
-    credentialId: "JSD-54321"
-  },
-  {
-    name: "Agile Project Management",
-    issuer: "Scrum Alliance",
-    date: "2019",
-    credentialId: "APM-67890"
+    credentialId: "UD-FSWD-67890"
   }
 ];
 
@@ -54,7 +54,7 @@ const Education = () => {
           <h2 className="text-3xl md:text-4xl font-display font-bold mb-4">Education & Certifications</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             My educational background and professional certifications have equipped me
-            with the knowledge and credentials necessary for success in the tech industry.
+            with the knowledge and credentials necessary for success in the computer science field.
           </p>
         </div>
         
@@ -117,28 +117,28 @@ const Education = () => {
             </div>
             
             <div className="mt-8">
-              <h3 className="text-2xl font-medium mb-6">Continuing Education</h3>
+              <h3 className="text-2xl font-medium mb-6">Research Focus</h3>
               <Card className="bg-gradient-to-r from-primary/10 to-primary/5 border-none shadow-sm">
                 <CardContent className="p-6">
                   <p className="mb-4">
-                    I'm committed to lifelong learning and continuously expand my skills through:
+                    My research interests include:
                   </p>
                   <ul className="space-y-2">
                     <li className="flex items-start gap-2">
                       <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-xs">✓</span>
-                      <span>Online courses on platforms like Coursera, Udemy, and Frontend Masters</span>
+                      <span>AI applications in healthcare and accessibility</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-xs">✓</span>
-                      <span>Tech conferences and workshops</span>
+                      <span>Computer vision for cognitive narrative understanding</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-xs">✓</span>
-                      <span>Industry webinars and meetups</span>
+                      <span>Natural language processing and conversational AI</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="inline-flex items-center justify-center h-5 w-5 rounded-full bg-primary text-white text-xs">✓</span>
-                      <span>Reading technical books and blogs</span>
+                      <span>Deep learning for medical image analysis</span>
                     </li>
                   </ul>
                 </CardContent>

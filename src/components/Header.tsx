@@ -32,7 +32,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex justify-between items-center px-4 md:px-6">
         <a href="#hero" className="text-xl font-code font-bold text-primary">
-          JD<span className="text-foreground">.dev</span>
+          SJ<span className="text-foreground">.dev</span>
         </a>
 
         {/* Desktop Navigation */}
