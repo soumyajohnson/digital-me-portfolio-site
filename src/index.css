@@ -1,5 +1,4 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
 
 @tailwind base;
@@ -8,33 +7,33 @@
 
 @layer base {
   :root {
-    --background: 350 30% 96%;
-    --foreground: 350 60% 25%;
+    --background: 210 50% 96%;
+    --foreground: 210 60% 25%;
 
-    --card: 350 30% 98%;
-    --card-foreground: 350 60% 25%;
+    --card: 210 50% 98%;
+    --card-foreground: 210 60% 25%;
 
-    --popover: 350 30% 96%;
-    --popover-foreground: 350 60% 25%;
+    --popover: 210 50% 96%;
+    --popover-foreground: 210 60% 25%;
 
-    --primary: 350 85% 70%;
-    --primary-foreground: 350 30% 98%;
+    --primary: 210 85% 70%;
+    --primary-foreground: 210 30% 98%;
 
-    --secondary: 350 30% 90%;
-    --secondary-foreground: 350 60% 30%;
+    --secondary: 210 30% 90%;
+    --secondary-foreground: 210 60% 30%;
 
-    --muted: 350 30% 90%;
-    --muted-foreground: 350 40% 50%;
+    --muted: 210 30% 90%;
+    --muted-foreground: 210 40% 50%;
 
-    --accent: 350 85% 80%;
-    --accent-foreground: 350 60% 25%;
+    --accent: 210 85% 80%;
+    --accent-foreground: 210 60% 25%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 350 30% 85%;
-    --input: 350 30% 85%;
-    --ring: 350 85% 70%;
+    --border: 210 30% 85%;
+    --input: 210 30% 85%;
+    --ring: 210 85% 70%;
 
     --radius: 0.5rem;
 
@@ -77,7 +76,7 @@
   }
 
   .primary-gradient {
-    background: linear-gradient(90deg, #ff9ebb, #ffb2c9);
+    background: linear-gradient(90deg, #a3c9ff, #d3e4fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -89,13 +88,13 @@ html {
 
 .section-title::before {
   content: "<";
-  color: #ff9ebb;
+  color: #a3c9ff;
   margin-right: 0.5rem;
 }
 
 .section-title::after {
   content: "/>";
-  color: #ff9ebb;
+  color: #a3c9ff;
   margin-left: 0.5rem;
 }
 
@@ -108,7 +107,7 @@ html {
 }
 
 .border-gradient {
-  border-image: linear-gradient(to right, #ff9ebb, #ffb2c9) 1;
+  border-image: linear-gradient(to right, #a3c9ff, #d3e4fd) 1;
   border-width: 2px;
   border-style: solid;
 }
