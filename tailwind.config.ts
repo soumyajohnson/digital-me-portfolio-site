@@ -65,7 +65,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['Inter', 'sans-serif'],
+				sans: ['Poppins', 'sans-serif'],
 				display: ['"Playfair Display"', 'serif'],
 				code: ['"Fira Code"', 'monospace']
 			},
