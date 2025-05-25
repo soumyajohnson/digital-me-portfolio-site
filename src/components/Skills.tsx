@@ -1,36 +1,34 @@
-
 import { Card, CardContent } from "@/components/ui/card";
-import { Progress } from "@/components/ui/progress";
 
 const skillCategories = [
   {
     category: "Programming Languages",
     skills: [
-      { name: "Java", level: 95 },
-      { name: "Python", level: 90 },
-      { name: "C/C++", level: 88 },
-      { name: "JavaScript", level: 85 },
-      { name: "HTML/CSS", level: 85 },
+      { name: "Java" },
+      { name: "Python" },
+      { name: "C/C++" },
+      { name: "JavaScript" },
+      { name: "HTML/CSS" },
     ],
   },
   {
     category: "Frameworks & Libraries",
     skills: [
-      { name: "React", level: 80 },
-      { name: "Express.js", level: 75 },
-      { name: "Spring Boot", level: 85 },
-      { name: "REST APIs", level: 90 },
-      { name: "GraphQL", level: 70 },
+      { name: "React" },
+      { name: "Express.js" },
+      { name: "Spring Boot" },
+      { name: "REST APIs" },
+      { name: "GraphQL" },
     ],
   },
   {
     category: "Tools & Platforms",
     skills: [
-      { name: "SAP Commerce Cloud", level: 90 },
-      { name: "NLP", level: 80 },
-      { name: "Git/GitHub", level: 88 },
-      { name: "MongoDB/SQL", level: 85 },
-      { name: "Docker", level: 75 },
+      { name: "SAP Commerce Cloud" },
+      { name: "NLP" },
+      { name: "Git/GitHub" },
+      { name: "MongoDB/SQL" },
+      { name: "Docker" },
     ],
   },
 ];
@@ -54,14 +52,13 @@ const Skills = () => {
                 <h3 className="text-xl font-medium mb-6 pb-2 border-b border-border">
                   {category.category}
                 </h3>
-                <div className="space-y-5">
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill, skillIdx) => (
-                    <div key={skillIdx}>
-                      <div className="flex justify-between items-center mb-1">
-                        <span className="font-medium text-foreground">{skill.name}</span>
-                        <span className="text-sm text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      <Progress value={skill.level} className="h-2" indicatorClassName="bg-primary" />
+                    <div
+                      key={skillIdx}
+                      className="bg-primary/10 border border-primary/20 rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-primary/20 transition-colors"
+                    >
+                      {skill.name}
                     </div>
                   ))}
                 </div>
