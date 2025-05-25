@@ -1,36 +1,21 @@
 import { Card, CardContent } from "@/components/ui/card";
 
-const skillCategories = [
-  {
-    category: "Programming Languages",
-    skills: [
-      { name: "Java" },
-      { name: "Python" },
-      { name: "C/C++" },
-      { name: "JavaScript" },
-      { name: "HTML/CSS" },
-    ],
-  },
-  {
-    category: "Frameworks & Libraries",
-    skills: [
-      { name: "React" },
-      { name: "Express.js" },
-      { name: "Spring Boot" },
-      { name: "REST APIs" },
-      { name: "GraphQL" },
-    ],
-  },
-  {
-    category: "Tools & Platforms",
-    skills: [
-      { name: "SAP Commerce Cloud" },
-      { name: "NLP" },
-      { name: "Git/GitHub" },
-      { name: "MongoDB/SQL" },
-      { name: "Docker" },
-    ],
-  },
+const allSkills = [
+  "Java",
+  "Python", 
+  "C/C++",
+  "JavaScript",
+  "HTML/CSS",
+  "React",
+  "Express.js",
+  "Spring Boot",
+  "REST APIs",
+  "GraphQL",
+  "SAP Commerce Cloud",
+  "NLP",
+  "Git/GitHub",
+  "MongoDB/SQL",
+  "Docker"
 ];
 
 const Skills = () => {
@@ -45,25 +30,14 @@ const Skills = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {skillCategories.map((category, idx) => (
-            <Card key={idx} className="overflow-hidden bg-card border-none shadow-lg shadow-black/20">
-              <CardContent className="p-6">
-                <h3 className="text-xl font-medium mb-6 pb-2 border-b border-border">
-                  {category.category}
-                </h3>
-                <div className="flex flex-wrap gap-2">
-                  {category.skills.map((skill, skillIdx) => (
-                    <div
-                      key={skillIdx}
-                      className="bg-primary/10 border border-primary/20 rounded-lg px-3 py-2 text-sm font-medium text-foreground hover:bg-primary/20 transition-colors"
-                    >
-                      {skill.name}
-                    </div>
-                  ))}
-                </div>
-              </CardContent>
-            </Card>
+        <div className="flex flex-wrap justify-center gap-4">
+          {allSkills.map((skill, idx) => (
+            <div
+              key={idx}
+              className="bg-card border border-border rounded-lg px-4 py-3 text-sm font-medium text-foreground hover:bg-secondary/20 transition-colors shadow-sm"
+            >
+              {skill}
+            </div>
           ))}
         </div>
         
