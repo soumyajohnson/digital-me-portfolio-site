@@ -1,11 +1,8 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, User, Mail, Code } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="section-padding bg-card">
+  return <section id="about" className="section-padding bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">About Me</h2>
@@ -47,11 +44,7 @@ const About = () => {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-xl overflow-hidden border-4 border-primary relative z-10">
-                <img 
-                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3" 
-                  alt="John Doe" 
-                  className="w-full h-full object-cover"
-                />
+                <img alt="John Doe" src="/lovable-uploads/765bd477-8051-4a5e-93fa-727131f13515.jpg" className="w-full h-full object-cover" />
               </div>
               <div className="absolute w-full h-full bg-secondary/30 rounded-xl -top-4 -right-4"></div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full -z-10">
@@ -100,8 +93,6 @@ const About = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
