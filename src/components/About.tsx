@@ -1,4 +1,5 @@
 
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, User, Mail, Code } from "lucide-react";
@@ -9,8 +10,8 @@ const About = () => {
           <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">About Me</h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+          <div className="order-2 md:order-1 md:col-span-2">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
                 Hey there! I'm <span className="text-primary font-medium">Soumya Johnson</span> — a Computer Science grad student at Penn State who enjoys turning caffeine into code and complex problems into clean, scalable solutions.
@@ -96,3 +97,4 @@ const About = () => {
     </section>;
 };
 export default About;
+
