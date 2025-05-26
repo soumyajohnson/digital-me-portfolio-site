@@ -40,8 +40,7 @@ const Hero = () => {
         </div>
         
         <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          I create exceptional digital experiences and solutions with expertise in 
-          full-stack development and AI applications.
+          "Turning bugs into features since 2020." 
         </p>
         
         <div className="flex flex-wrap gap-4 justify-center mb-12">

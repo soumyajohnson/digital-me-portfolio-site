@@ -15,8 +15,7 @@ const About = () => {
           <div className="order-2 md:order-1">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Hello! I'm <span className="text-primary font-medium">John Doe</span>, a passionate frontend developer based in 
-                San Francisco with 5+ years of experience specializing in building exceptional digital experiences.
+                Hello! I'm <span className="text-primary font-medium">Soumya Johnson</span>, a graduate student in Computer Science at Penn State with 4+ years of industry experience building scalable web applications and intelligent systems. I specialize in full-stack development, AI-driven solutions, and accessible technology for all.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
