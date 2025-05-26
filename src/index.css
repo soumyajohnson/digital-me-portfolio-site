@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap');
 
 @tailwind base;
@@ -79,6 +80,23 @@
     background: linear-gradient(90deg, #a3c9ff, #d3e4fd);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+  }
+
+  /* 3D Flip Card Utilities */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .rotate-y-180 {
+    transform: rotateY(180deg);
   }
 }
 
