@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Download, User, Mail, Code } from "lucide-react";
@@ -12,19 +13,19 @@ const About = () => {
           <div className="order-2 md:order-1">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Hello! I'm <span className="text-primary font-medium">Soumya Johnson</span>, a graduate student in Computer Science at Penn State with 4+ years of industry experience building scalable web applications and intelligent systems. I specialize in full-stack development, AI-driven solutions, and accessible technology for all.
+                Hey there! I'm <span className="text-primary font-medium">Soumya Johnson</span> — a Computer Science grad student at Penn State who enjoys turning caffeine into code and complex problems into clean, scalable solutions.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                My journey in web development started during college when I built my first website for a local business. 
-                Since then, I've worked with agencies, startups, and established companies to create 
-                user-friendly and performant web applications.
+                Over the past few years, I've built everything from e-commerce platforms that handle millions of users to voice-based AI tools that can detect negative thoughts (yes, even your inner saboteur). My work spans frontend, backend, and the kind of machine learning models that make computers seem... oddly empathetic.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                I enjoy transforming complex problems into simple, beautiful and intuitive designs. 
-                When I'm not coding or pushing pixels, you'll find me hiking, reading sci-fi novels, 
-                or exploring new coffee shops in the city.
+                My projects often revolve around making tech more accessible, bilingual, and actually helpful — like a mental health assistant that speaks your language or a real-time object detection system for individuals with visual agnosia. I've also published research on AI-powered medical chatbots and neural networks for lung tumor identification — because why not teach machines to care and diagnose?
+              </p>
+              
+              <p className="text-lg leading-relaxed text-muted-foreground">
+                When I'm not busy building things that think, talk, or see, you'll probably find me jamming to music like it's my side hustle, experimenting in the kitchen (success rate varies), planning my next escape across the globe, or rating new cuisines like a one-woman Michelin guide — all while pretending I don't have 32 tabs open.
               </p>
               
               <div className="flex flex-wrap gap-4">
