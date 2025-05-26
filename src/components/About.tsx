@@ -1,8 +1,6 @@
-
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Download, User, Mail, Code } from "lucide-react";
+import { Download, User, Mail, Code, Brain, Layers, Users, Lightbulb } from "lucide-react";
 const About = () => {
   return <section id="about" className="section-padding bg-card">
       <div className="container mx-auto px-4 md:px-6">
@@ -56,15 +54,15 @@ const About = () => {
           </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-20">
           <Card className="bg-secondary/20 border-none shadow-lg shadow-black/20">
             <CardContent className="p-6 flex flex-col items-center text-center">
               <div className="bg-primary/10 p-3 rounded-full mb-4">
-                <Code className="h-6 w-6 text-primary" />
+                <Brain className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Frontend Development</h3>
+              <h3 className="text-xl font-bold mb-2">Applied AI</h3>
               <p className="text-muted-foreground">
-                I love bringing ideas to life in the browser, creating responsive and interactive user interfaces.
+                I use machine learning and NLP not just to analyze data but to build tools that actually understand people, from cognitive distortion classifiers to AI-powered assistants.
               </p>
             </CardContent>
           </Card>
@@ -72,11 +70,11 @@ const About = () => {
           <Card className="bg-secondary/20 border-none shadow-lg shadow-black/20">
             <CardContent className="p-6 flex flex-col items-center text-center">
               <div className="bg-primary/10 p-3 rounded-full mb-4">
-                <User className="h-6 w-6 text-primary" />
+                <Layers className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">User Experience</h3>
+              <h3 className="text-xl font-bold mb-2">Full-Stack Development</h3>
               <p className="text-muted-foreground">
-                I focus on creating intuitive UIs with seamless navigation and delightful interactions.
+                From APIs to UI, I build seamless, scalable systems that users (and developers) enjoy working with.
               </p>
             </CardContent>
           </Card>
@@ -84,11 +82,23 @@ const About = () => {
           <Card className="bg-secondary/20 border-none shadow-lg shadow-black/20">
             <CardContent className="p-6 flex flex-col items-center text-center">
               <div className="bg-primary/10 p-3 rounded-full mb-4">
-                <Mail className="h-6 w-6 text-primary" />
+                <Users className="h-6 w-6 text-primary" />
               </div>
-              <h3 className="text-xl font-bold mb-2">Communication</h3>
+              <h3 className="text-xl font-bold mb-2">Accessibility-First Design</h3>
               <p className="text-muted-foreground">
-                I value clear communication and collaboration to ensure projects run smoothly from start to finish.
+                I design with everyone in mind, creating multilingual, voice-friendly, and inclusive experiences that go beyond checkboxes.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-secondary/20 border-none shadow-lg shadow-black/20">
+            <CardContent className="p-6 flex flex-col items-center text-center">
+              <div className="bg-primary/10 p-3 rounded-full mb-4">
+                <Lightbulb className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-2">Problem Solving</h3>
+              <p className="text-muted-foreground">
+                I turn vague ideas and messy requirements into polished products, often faster than the coffee kicks in.
               </p>
             </CardContent>
           </Card>
@@ -97,4 +107,3 @@ const About = () => {
     </section>;
 };
 export default About;
-
