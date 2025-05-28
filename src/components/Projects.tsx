@@ -5,62 +5,68 @@ import { ExternalLink, Github, Code } from "lucide-react";
 
 const projects = [
   {
-    title: "Video-Based Cognitive Narrative Classifier",
-    description: "Created a live video system for detecting and interpreting narrative structure data to identify cognitive impairments. Integrated gesture therapist interaction data in challenging environments.",
+    title: "Voice-Based CBT Therapist for the Visually Impaired Using DistilBERT",
+    description: "Engineered a voice-driven CBT chatbot leveraging DistilBERT for cognitive distortion classification and GPT-4 for therapeutic response generation, enhancing accessible mental health support for visually impaired individuals.",
     image: "https://images.unsplash.com/photo-1633419798822-8c42c97d09e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxMHx8dmlkZW8lMjBhbmFseXNpc3xlbnwwfHx8fDE2OTA0NjcwNDh8MA&auto=format&fit=crop&w=500&q=60",
-    tags: ["Python", "Computer Vision", "AI", "NLP"],
+    tags: ["Python", "LLM", "AI", "NLP", "Mental Health"],
     liveLink: "#",
     repoLink: "#",
     date: "Jun'27 - Apr'25"
   },
   {
-    title: "EmotCare - Voice-Interactive Mental Health Assistant",
-    description: "Built a voice-interactive system using conversational technology to provide personalized therapy. Used OpenAI GPT for real-time speech-to-text, NLP features processing and emotional support.",
+    title: "EmotiCare - Multilingual Voice-Interactive Mental Health Assistant",
+    description: "Engineered a React–Flask application integrating Web Speech API and OpenAI GPT for real-time speech-to-text, NLP-driven response generation, and text-to-speech output; designed for accessible, bilingual therapeutic interactions.",
     image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw5fHxtZW50YWwlMjBoZWFsdGh8ZW58MHx8fHwxNjkwNDY3MTIzfMA&auto=format&fit=crop&w=500&q=60",
-    tags: ["NLP", "GPT", "Speech Recognition", "Healthcare"],
+    tags: ["NLP", "OpenAI", "Speech Recognition", "Flask API", "React JS"],
     liveLink: "#",
     repoLink: "#",
     date: "Jun'27 - Apr'25"
   },
   {
     title: "Real-Time Object Detection Using Vision to Aid People With Visual Agnosia",
-    description: "Developed a real-time object detection system using YODAM technology to assist individuals with visual agnosia. Created innovative deep feature mapping techniques.",
+    description: "Developed a real-time object detection system using YOLOv8, fine-tuned on a custom dataset, to assist individuals with visual agnosia by identifying objects and providing on-screen operational instructions for improved usability.",
     image: "https://images.unsplash.com/photo-1590856029826-c7a73142d163?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxvYmplY3QlMjBkZXRlY3Rpb258ZW58MHx8fHwxNjkwNDY3MTgzfMA&auto=format&fit=crop&w=500&q=60",
-    tags: ["Computer Vision", "Deep Learning", "Object Detection", "Accessibility"],
+    tags: ["Computer Vision", "Deep Learning", "Object Detection", "YOLOV8"],
     liveLink: "#",
     repoLink: "#",
     date: "Aug'24 - Dec'24"
   },
-  {
-    title: "Delivery Impact Day Dashboard",
-    description: "Led a team of 25 volunteers to build applications for the visually challenged. Contributed to Deloitte's global initiative of offering tech solutions for accessibility.",
-    image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw0fHx2b2x1bnRlZXJ8ZW58MHx8fHwxNjkwNDY3MjUyfMA&auto=format&fit=crop&w=500&q=60",
-    tags: ["Accessibility", "Team Leadership", "Web Applications"],
-    liveLink: "#",
-    repoLink: "#",
-    date: "Jun'22 - May'23"
-  }
+  // {
+  //   title: "Delivery Impact Day Dashboard",
+  //   description: "Led a team of 25 volunteers to build applications for the visually challenged. Contributed to Deloitte's global initiative of offering tech solutions for accessibility.",
+  //   image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw0fHx2b2x1bnRlZXJ8ZW58MHx8fHwxNjkwNDY3MjUyfMA&auto=format&fit=crop&w=500&q=60",
+  //   tags: ["Accessibility", "Team Leadership", "Web Applications"],
+  //   liveLink: "#",
+  //   repoLink: "#",
+  //   date: "Jun'22 - May'23"
+  // }
 ];
 
 // Research publications
 const publications = [
   {
-    title: "A fully convolutional deep neural network for lung cancer identification",
-    venue: "UMAP",
-    date: "Jun'20 - May'20",
+    title: "A fully convolutional deep neural network for lung tumor identification",
+    venue: "International Journal of Applied Engineering Research (IJAER)",
+    date: "Jan'20 - May'20",
     description: "Developed a revolutionary deep learning approach to accurately identify lung cancer from medical images with higher than average accuracy."
   },
   {
-    title: "A Novel Approach to Understand the Paper of Chatbots for Medical Assistance",
-    venue: "UEMCON",
-    date: "Oct'18 - Dec'18",
+    title: "A Novel Approach to Understand the Future of Chatbots for Medical Assistance.",
+    venue: "International Journal of Engineering and Advanced Technology (IJEAT)",
+    date: "Jul'18 - Dec'18",
     description: "Conducted an AI-based medical chatting, integrating NLP and AME to process text into sentences with increased comprehension."
   },
   {
-    title: "Embedur as a Personal Assistant",
-    venue: "UAMR",
+    title: "Chatbot as a Personal Assistant",
+    venue: "International Journal of Applied Engineering Research (IJAER)",
     date: "Jan'18 - May'18",
     description: "Developed an AI-powered interactive persona as a personal assistant, integrating unique presentation and using NLP and design AI."
+  },
+    {
+    title: "Home Security System",
+    venue: "International Journal of Applied Engineering Research (IJAER)",
+    date: "Jul'18 - Dec'18",
+    description: "Developed an IoT-enabled home security system using facial recognition and real-time visitor authentication."
   }
 ];
 
@@ -136,13 +142,13 @@ const Projects = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
             <a href="https://github.com/soumyaj" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
               <Code className="h-5 w-5" /> View All Projects
             </a>
           </Button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

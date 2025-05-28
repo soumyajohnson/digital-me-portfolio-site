@@ -25,10 +25,6 @@ const Skills = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="section-title text-3xl md:text-4xl font-bold mb-4 font-code">Skills</h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto mb-4">
-            I've acquired and honed these skills through professional work,
-            research, and continuous learning in computer science and engineering.
-          </p>
           <p className="text-sm text-primary italic">
             Hover to flip because tooltips are boring, and skill cards are more fun when they show off their secret side.
           </p>
