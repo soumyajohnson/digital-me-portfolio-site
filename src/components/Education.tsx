@@ -6,7 +6,7 @@ const education = [
   {
     degree: "M.S in Computer Science",
     institution: "Pennsylvania State University",
-    duration: "2023 - 2025 (Expected)",
+    duration: "2024 - 2024",
     description: "Current GPA: 3.67/4.0. Focusing on Machine Learning, AI applications, and Computer Vision. Conducting research on cognitive narrative classifiers and healthcare applications.",
     courses: ["Advanced Machine Learning", "Computer Vision", "Natural Language Processing", "Cloud Computing"]
   },
