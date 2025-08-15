@@ -85,15 +85,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
             <Card key={idx} className="project-card bg-card border-none overflow-hidden shadow-lg shadow-black/20">
-              <div className="h-48 overflow-hidden relative">
-                <div className="absolute inset-0 bg-gradient-to-b from-transparent to-background/90 z-10"></div>
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <CardContent className="p-6 relative z-20 -mt-8">
+              <CardContent className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
                 <p className="text-xs text-primary mb-2">{project.date}</p>
                 <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
