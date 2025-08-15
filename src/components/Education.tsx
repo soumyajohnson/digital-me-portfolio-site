@@ -6,14 +6,14 @@ const education = [
   {
     degree: "M.S in Computer Science",
     institution: "Pennsylvania State University",
-    duration: "2024 - 2024",
+    duration: "2024 - 2026 (Expected)",
     description: "Current GPA: 3.67/4.0. Focusing on Machine Learning, AI applications, and Computer Vision. Conducting research on cognitive narrative classifiers and healthcare applications.",
     courses: ["Advanced Machine Learning", "Computer Vision", "Natural Language Processing", "Cloud Computing"]
   },
   {
     degree: "B.Tech in Computer Science and Engineering",
     institution: "SRM Institute of Science and Technology, Chennai",
-    duration: "2015 - 2019",
+    duration: "2016 - 2020",
     description: "Graduated with a GPA of 9.1/10. Focused on software engineering and AI applications. Participated in multiple hackathons and research projects.",
     courses: ["Data Structures & Algorithms", "Artificial Intelligence", "Web Technologies", "Database Management"]
   }
