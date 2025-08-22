@@ -137,9 +137,18 @@ const Contact = () => {
               <h3 className="text-2xl font-medium mb-6">Contact Information</h3>
               <div className="space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="rounded-full bg-primary/10 p-3 flex-shrink-0">
+                  <button 
+                    onClick={() => {
+                      navigator.clipboard.writeText('soumyajohnson97@gmail.com');
+                      toast({
+                        title: "Email copied!",
+                        description: "soumyajohnson97@gmail.com has been copied to clipboard",
+                      });
+                    }}
+                    className="rounded-full bg-primary/10 p-3 flex-shrink-0 hover:bg-primary/20 transition-colors cursor-pointer"
+                  >
                     <Mail className="h-5 w-5 text-primary" />
-                  </div>
+                  </button>
                   <div>
                     <h4 className="text-lg font-medium">Email</h4>
                     <a href="mailto:soumyajohnson97@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">

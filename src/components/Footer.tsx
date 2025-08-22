@@ -1,8 +1,10 @@
 
 import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { toast } = useToast();
   
   return (
     <footer className="bg-card py-12">
@@ -42,13 +44,19 @@ const Footer = () => {
               >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a 
-                href="mailto:soumyajohnson97@gmail.com"
+              <button 
+                onClick={() => {
+                  navigator.clipboard.writeText('soumyajohnson97@gmail.com');
+                  toast({
+                    title: "Email copied!",
+                    description: "soumyajohnson97@gmail.com has been copied to clipboard",
+                  });
+                }}
                 className="text-muted-foreground hover:text-primary transition-colors"
-                aria-label="Email"
+                aria-label="Copy Email"
               >
                 <Mail className="h-5 w-5" />
-              </a>
+              </button>
             </div>
           </div>
           

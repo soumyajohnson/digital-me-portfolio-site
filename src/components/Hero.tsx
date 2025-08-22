@@ -2,8 +2,10 @@
 import { Button } from "@/components/ui/button";
 import { ChevronDown, Download, Github, Linkedin, Mail } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useToast } from "@/hooks/use-toast";
 
 const Hero = () => {
+  const { toast } = useToast();
   const [text, setText] = useState("");
   const fullText = "Computer Science Engineer";
   const [index, setIndex] = useState(0);
@@ -73,13 +75,19 @@ const Hero = () => {
           >
             <Linkedin className="h-6 w-6" />
           </a>
-          <a 
-            href="mailto:soumyajohnson97@gmail.com"
+          <button 
+            onClick={() => {
+              navigator.clipboard.writeText('soumyajohnson97@gmail.com');
+              toast({
+                title: "Email copied!",
+                description: "soumyajohnson97@gmail.com has been copied to clipboard",
+              });
+            }}
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"
-            aria-label="Email"
+            aria-label="Copy Email"
           >
             <Mail className="h-6 w-6" />
-          </a>
+          </button>
         </div>
       </div>
       
