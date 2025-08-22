@@ -1,73 +1,41 @@
-# Welcome to your Lovable project
+# 💼 Soumya Johnson – Portfolio Website
 
-## Project info
+This is the source code for my personal portfolio website, designed to showcase my work, background, and skills in a clean and responsive layout.
 
-**URL**: https://lovable.dev/projects/0dce2e78-dc1a-452e-9f7b-2d3b7a418fb4
+🔗 **Live Site**: [https://soumya-johnson.vercel.app](https://soumya-johnson.vercel.app)
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- ⚡ Fully responsive, fast-loading, and mobile-friendly
+- 🧠 Built with Vite, React, TypeScript, Tailwind CSS, and shadcn-ui
+- 📄 Organized sections for About Me, Projects, and Contact
+- 🌐 Hosted on Vercel with auto-deployment from GitHub
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0dce2e78-dc1a-452e-9f7b-2d3b7a418fb4) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠 Tech Stack
 
-**Use your preferred IDE**
+- **Frontend**: React, TypeScript, Vite
+- **Styling**: Tailwind CSS, shadcn-ui
+- **Hosting**: Vercel
+- **Version Control**: Git + GitHub
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Deployment
 
-Follow these steps:
+The site is deployed with [Vercel](https://vercel.com) and updates automatically with every push to the `main` branch.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+# Clone the repo
+git clone https://github.com/soumyajohnson/digital-me-portfolio-site.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd digital-me-portfolio-site
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Run locally
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0dce2e78-dc1a-452e-9f7b-2d3b7a418fb4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
