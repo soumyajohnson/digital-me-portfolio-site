@@ -131,7 +131,7 @@ const Projects = () => {
         
         {/* <div className="text-center mt-12">
           <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
-            <a href="https://github.com/soumyaj" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+            <a href="https://github.com/soumyajohnson" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
               <Code className="h-5 w-5" /> View All Projects
             </a>
           </Button>

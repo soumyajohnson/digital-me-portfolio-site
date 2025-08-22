@@ -56,7 +56,7 @@ const Hero = () => {
         
         <div className="flex justify-center gap-4 mb-12">
           <a 
-            href="https://github.com/soumyaj"
+            href="https://github.com/soumyajohnson"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"
@@ -65,7 +65,7 @@ const Hero = () => {
             <Github className="h-6 w-6" />
           </a>
           <a 
-            href="https://linkedin.com/in/soumyajohnson"
+            href="https://www.linkedin.com/in/soumya-johnson-80a379155/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-secondary/50 p-3 rounded-full hover:bg-secondary transition-colors"

@@ -176,7 +176,7 @@ const Contact = () => {
               <h3 className="text-2xl font-medium mb-6">Connect With Me</h3>
               <div className="flex flex-wrap gap-4">
                 <a 
-                  href="https://linkedin.com/in/johndoe"
+                  href="https://www.linkedin.com/in/soumya-johnson-80a379155/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full bg-[#0A66C2] text-white p-3 hover:opacity-90 transition-opacity"
@@ -184,7 +184,7 @@ const Contact = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://github.com/johndoe"
+                  href="https://github.com/soumyajohnson"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="rounded-full bg-[#181717] text-white p-3 hover:opacity-90 transition-opacity"
