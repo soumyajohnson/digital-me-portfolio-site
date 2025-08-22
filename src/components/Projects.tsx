@@ -102,12 +102,7 @@ const Projects = () => {
                   ))}
                 </div>
               </CardContent>
-              <CardFooter className="px-6 py-4 border-t border-border flex justify-between">
-                <Button asChild variant="ghost" size="sm" className="hover:bg-secondary/30 hover:text-primary">
-                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                    <ExternalLink className="h-4 w-4" /> Demo
-                  </a>
-                </Button>
+              <CardFooter className="px-6 py-4 border-t border-border flex justify-center">
                 <Button asChild variant="ghost" size="sm" className="hover:bg-secondary/30 hover:text-primary">
                   <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <Github className="h-4 w-4" /> Code
