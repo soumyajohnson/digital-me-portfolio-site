@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-code font-bold text-primary mb-4">JD<span className="text-foreground">.dev</span></h3>
+            <h3 className="text-xl font-code font-bold text-primary mb-4">SJ<span className="text-foreground">.dev</span></h3>
             <p className="text-muted-foreground mb-4 max-w-xs">
               A passionate frontend developer focused on creating beautiful and
               functional web experiences.
@@ -43,7 +43,7 @@ const Footer = () => {
                 <Twitter className="h-5 w-5" />
               </a>
               <a 
-                href="mailto:john.doe@example.com"
+                href="mailto:soumyajohnson97@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -79,15 +79,15 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>San Francisco, California, USA</li>
+              <li>Harrisburg, Pennsylvania, USA</li>
               <li>
-                <a href="mailto:john.doe@example.com" className="hover:text-primary transition-colors">
-                  john.doe@example.com
+                <a href="mailto:soumyajohnson97@gmail.com" className="hover:text-primary transition-colors">
+                  soumyajohnson97@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+15551234567" className="hover:text-primary transition-colors">
-                  +1 (555) 123-4567
+                <a href="tel:+17176481821" className="hover:text-primary transition-colors">
+                  +1 (717) 648-1821
                 </a>
               </li>
             </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>© {currentYear} John Doe. All rights reserved.</p>
+          <p>© {currentYear} Soumya Johnson. All rights reserved.</p>
           <p className="text-sm mt-2">
             Designed and built with <span className="text-primary">❤️</span> using React, TypeScript and Tailwind CSS
           </p>
