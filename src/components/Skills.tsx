@@ -3,19 +3,19 @@ import { Card, CardContent } from "@/components/ui/card";
 const skillCategories = [
   {
     category: "Programming Languages",
-    skills: ["Java", "Python", "C", "C++", "JavaScript", "HTML", "XML", "CSS", "MySQL", "PostgreSQL"]
+    skills: ["Java", "Python", "JavaScript", "HTML", "CSS", "SQL", "Typescript"]
   },
   {
-    category: "Frameworks and Libraries", 
-    skills: ["Spring Boot", "AngularJS", "ReactJS", "PyTorch"]
+    category: "Backend Systems & Frontend Framewokrs", 
+    skills: ["Spring Boot", "RESTful APIs", "JWT Authentication", "FastAPI", "ReactJS", "AngularJS", "TailwindCSS"]
   },
   {
-    category: "E-Commerce Platforms",
-    skills: ["SAP Commerce Cloud (Hybris)", "Adobe Experience Manager (AEM)", "HCL Commerce"]
+    category: "Databases & DevOps",
+    skills: ["MySQL", "PodstgreSQL", "MongoDB","Reddis", "Docker", "Jenkins", "Git", "Kubernetes"]
   },
   {
-    category: "Tools & Technologies",
-    skills: ["Git", "JIRA", "Bitbucket", "Postman", "Visual Studio", "Jenkins", "Swagger"]
+    category: "ML Systems",
+    skills: ["PyTorch", "TensorFlow", "OpenCV", "Transformers", "NumPy", "Pandas"]
   }
 ];
 

@@ -5,22 +5,49 @@ import { ExternalLink, Github, Code } from "lucide-react";
 
 const projects = [
   {
-    title: "Voice-Based CBT Therapist for the Visually Impaired Using DistilBERT",
-    description: "Engineered a voice-driven CBT chatbot leveraging DistilBERT for cognitive distortion classification and GPT-4 for therapeutic response generation, enhancing accessible mental health support for visually impaired individuals.",
+    title: "Auralis: Privacy-First Real-Time Voice AI Companion",
+    description: "A production-grade, bilingual (English/Hindi) voice AI built for real-time emotional support. Designed with low-latency streaming, strong security, and privacy-by-design at its core, Auralis handles sensitive mental-health conversations using token-level AI streaming, encrypted storage, and full user data control-proving how AI systems can be both fast and responsible.",
     image: "https://images.unsplash.com/photo-1633419798822-8c42c97d09e4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxMHx8dmlkZW8lMjBhbmFseXNpc3xlbnwwfHx8fDE2OTA0NjcwNDh8MA&auto=format&fit=crop&w=500&q=60",
-    tags: ["Python", "LLM", "AI", "NLP", "Mental Health"],
+    tags: ["Python", "STT/TTS", "WebSockets", "MongoDB", "JWT", "Flask API", "ReactJS"],
     liveLink: "#",
-    repoLink: "#",
-    date: "Jun'27 - Apr'25"
+    repoLink: "https://github.com/soumyajohnson/emoticare",
+    date: ""
   },
   {
-    title: "EmotiCare - Multilingual Voice-Interactive Mental Health Assistant",
-    description: "Engineered a React–Flask application integrating Web Speech API and OpenAI GPT for real-time speech-to-text, NLP-driven response generation, and text-to-speech output; designed for accessible, bilingual therapeutic interactions.",
+    title: "AI-Powered Fake News Detector",
+    description: "A full-stack credibility analysis platform that goes beyond simple “fake vs real” labels. It combines NLP models, explainable AI, and real-time social context (Reddit & Google News) to show why a claim is flagged — helping users make informed decisions instead of blind trust.",
     image: "https://images.unsplash.com/photo-1573497491765-dccce02b29df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw5fHxtZW50YWwlMjBoZWFsdGh8ZW58MHx8fHwxNjkwNDY3MTIzfMA&auto=format&fit=crop&w=500&q=60",
-    tags: ["NLP", "OpenAI", "Speech Recognition", "Flask API", "React JS"],
+    tags: ["Java", "Spring Boot", "NLP", "FastAPI", "Angular JS"],
     liveLink: "#",
-    repoLink: "#",
-    date: "Jun'27 - Apr'25"
+    repoLink: "https://github.com/soumyajohnson/fake-news-detector",
+    date: ""
+  },
+  {
+    title: "Flowra: Convert text into interactive flowcharts",
+    description: "Flowra transforms plain-English process descriptions into structured, interactive flowcharts. It combines AI-driven understanding with deterministic layout and manual editing, letting users generate, adjust, and refine process visuals in real time.",
+    image: "https://images.unsplash.com/photo-1590856029826-c7a73142d163?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxvYmplY3QlMjBkZXRlY3Rpb258ZW58MHx8fHwxNjkwNDY3MTgzfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Next.js", "React Flow", "FastAPI", "Gemini", "Node.js"],
+    liveLink: "#",
+    repoLink: "https://github.com/soumyajohnson/summary-visualizer",
+    date: ""
+  },
+  {
+    title: "Brain Age Prediction using 3D MRI",
+    description: "A deep-learning framework that predicts brain age from 3D MRI scans and analyzes the Brain Age Gap (BAG) as a biomarker for Alzheimer’s progression. Built with reproducible pipelines, model comparisons, and visual explanations (Grad-CAM), this project bridges medical imaging, ML, and interpretability.",
+    image: "https://images.unsplash.com/photo-1590856029826-c7a73142d163?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxvYmplY3QlMjBkZXRlY3Rpb258ZW58MHx8fHwxNjkwNDY3MTgzfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Python", "PyTorch","Medical Imaging", "Deep Learning", "3D CNN", "Image Processing","Docker"],
+    liveLink: "#",
+    repoLink: "https://github.com/soumyajohnson/brain-age-prediction",
+    date: ""
+  },
+  {
+    title: "Cerebral Palsy Therapy Outcome Prediction",
+    description: "An explainable ML system that predicts post-therapy outcomes for children with Cerebral Palsy using pre-therapy clinical data. Focused on interpretability and real-world clinical use, the model helps clinicians and caregivers make earlier, data-driven therapy decisions.",
+    image: "https://images.unsplash.com/photo-1590856029826-c7a73142d163?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHwxfHxvYmplY3QlMjBkZXRlY3Rpb258ZW58MHx8fHwxNjkwNDY3MTgzfMA&auto=format&fit=crop&w=500&q=60",
+    tags: ["Python", "Ensemble Models", "Explainable ML", "XGBoost","Deep Neural Network"],
+    liveLink: "#",
+    repoLink: "https://github.com/soumyajohnson/cerebral-palsy-therapy-outcome-prediction",
+    date: ""
   },
   {
     title: "Real-Time Object Detection Using Vision to Aid People With Visual Agnosia",
@@ -29,10 +56,10 @@ const projects = [
     tags: ["Computer Vision", "Deep Learning", "Object Detection", "YOLOV8"],
     liveLink: "#",
     repoLink: "#",
-    date: "Aug'24 - Dec'24"
+    date: ""
   },
   // {
-  //   title: "Delivery Impact Day Dashboard",
+  //   title: "Delivery Impact Day Dashboard", 
   //   description: "Led a team of 25 volunteers to build applications for the visually challenged. Contributed to Deloitte's global initiative of offering tech solutions for accessibility.",
   //   image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MTsxfHNlYXJjaHw0fHx2b2x1bnRlZXJ8ZW58MHx8fHwxNjkwNDY3MjUyfMA&auto=format&fit=crop&w=500&q=60",
   //   tags: ["Accessibility", "Team Leadership", "Web Applications"],
@@ -86,9 +113,9 @@ const Projects = () => {
           {projects.map((project, idx) => (
             <Card key={idx} className="project-card bg-card border-none overflow-hidden shadow-lg shadow-black/20">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold mb-2 text-center">{project.title}</h3>
                 <p className="text-xs text-primary mb-2">{project.date}</p>
-                <p className="text-muted-foreground text-sm mb-4 line-clamp-2">
+                <p className="text-muted-foreground text-sm mb-4">
                   {project.description}
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">

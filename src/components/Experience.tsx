@@ -4,10 +4,19 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
+    role: "Graduate Research Assistant",
+    company: "Harrisburg, Pennsylvania, USA",
+    duration: "Feb' 2025 - Present",
+    description: "As a Research Assistnat I have built Python-based machine learning pipelines for clinical and neuroimaging datasets, handling noisy inputs and class imbalance to support reproducible experimentation. I have also designed data pipelines for feature extraction, model evaluation, and performance tracking to support research-driven decision making.I have also developed 3D CNN models in PyTorch to estimate brain age from MRI volumes, achieving 3.72-year MAE and supporting longitudinal analysis.",
+    logo:"/logos/psu.png",
+    achievements: [    ]
+  },
+  {
     role: "SAP Commerce Cloud Developer",
     company: "Deloitte, Hyderabad, India",
     duration: "Oct'21 - July'24",
     description: "As a backend developer within the SAP Commerce Cloud (Hybris) ecosystem, I engineered scalable, high-performance solutions powering enterprise-grade e-commerce platforms. I contributed to the end-to-end development lifecycle, from refining business requirements and grooming feature stories to implementing critical functionality and resolving production-level issues. My work spanned multiple successful production releases, where I also led deployment and go-live operations to ensure seamless rollout. Additionally, I played a strategic role in Hybris platform upgrades, driving version transitions with zero downtime and improved system resilience.",
+    logo:"/logos/deloitte.png",
     achievements: [    ]
   },
   {
@@ -15,6 +24,7 @@ const experiences = [
     company: "Infosys Ltd, Pune, India",
     duration: "Oct'20 - Oct'21",
     description: "In my tenure as an AEM Developer, I was responsible for crafting and deploying dynamic, interactive forms and user-facing components within the Adobe Experience Manager framework. I focused on optimizing frontend performance while ensuring seamless integration with backend services and enterprise systems. My efforts contributed to multiple production deployments, where I collaborated with cross-functional teams to deliver user-centric, accessible web experiences that aligned with both brand identity and technical excellence.",
+    logo:"/logos/infosys.png",
     achievements: [    ]
   },
   {
@@ -22,6 +32,7 @@ const experiences = [
     company: "Infosys Ltd, Mysore, India",
     duration: "Jan'20 - Apr'20",
     description: "As a full stack development intern, I architected and delivered a fully operational e-commerce application, demonstrating hands-on expertise across the entire development stack. Leveraging Java and Spring Boot for backend services, AngularJS for a responsive frontend, and MySQL for robust data management, I built a cohesive and intuitive platform. This experience not only deepened my technical proficiency, but also strengthened my ability to design scalable, maintainable solutions with a focus on performance, usability, and modern design principles",
+    logo:"/logos/infosys.png",
     achievements: []
   }
 ];
@@ -48,11 +59,36 @@ const Experience = () => {
                   <Card className="h-full shadow-md hover:shadow-lg transition-shadow border-t-4 border-t-primary">
                     <CardContent className="p-6">
                       <div className="flex flex-col h-full">
-                        <div className="mb-4">
-                          <h3 className="text-xl font-bold">{exp.role}</h3>
-                          <p className="text-primary font-medium">{exp.company}</p>
-                          <p className="text-sm text-muted-foreground">{exp.duration}</p>
+                        <div className="mb-4 flex items-start gap-4">
+                          {/* Logo */}
+                          <div className="shrink-0">
+                            {exp.logo ? (
+                              <img
+                                src={exp.logo}
+                                alt={`${exp.company} logo`}
+                                className="h-12 w-12 rounded-md object-contain border bg-white p-1"
+                                loading="lazy"
+                              />
+                            ) : (
+                              <div className="h-12 w-12 rounded-md border bg-muted flex items-center justify-center text-xs font-semibold text-muted-foreground">
+                                {exp.company
+                                  .split(" ")
+                                  .slice(0, 2)
+                                  .map((w) => w[0])
+                                  .join("")
+                                  .toUpperCase()}
+                              </div>
+                            )}
+                          </div>
+
+                          {/* Text */}
+                          <div className="min-w-0">
+                            <h3 className="text-xl font-bold leading-tight">{exp.role}</h3>
+                            <p className="text-primary font-medium truncate">{exp.company}</p>
+                            <p className="text-sm text-muted-foreground">{exp.duration}</p>
+                          </div>
                         </div>
+
                         <p className="text-muted-foreground mb-4 flex-grow">
                           {exp.description}
                         </p>

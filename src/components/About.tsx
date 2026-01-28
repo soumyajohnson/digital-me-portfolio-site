@@ -12,19 +12,19 @@ const About = () => {
           <div className="order-2 md:order-1 md:col-span-2">
             <div className="space-y-6">
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Hey there! I'm <span className="text-primary font-medium">Soumya Johnson</span> — a Computer Science grad student at Penn State who enjoys turning caffeine into code and complex problems into clean, scalable solutions.
+                Hey there! I'm <span className="text-primary font-medium">Soumya Johnson</span>, a Computer Science grad student at Penn State who likes building things that make life a little easier or at least less annoying. 😁
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                Over the past few years, I've built everything from e-commerce platforms that handle millions of users to voice-based AI tools that can detect negative thoughts (yes, even your inner saboteur). My work spans frontend, backend, and the kind of machine learning models that make computers seem... oddly empathetic.
+                That curiosity has led me to build everything from small tools that fix everyday inconveniences to larger systems that listen, read, or see, sometimes instantly, sometimes after a lot of debugging. I especially enjoy working on ideas that help people in quiet ways, whether that’s through accessibility , mental health support , or simply making information easier to understand.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                My projects often revolve around making tech more accessible, bilingual, and actually helpful — like a mental health assistant that speaks your language or a real-time object detection system for individuals with visual agnosia. I've also published research on AI-powered medical chatbots and neural networks for lung tumor identification — because why not teach machines to care and diagnose?
+                I care about making technology useful, friendly, and human; not flashy for the sake of it 🤍. If it saves someone time, effort, or a headache, I consider that a win.
               </p>
               
               <p className="text-lg leading-relaxed text-muted-foreground">
-                When I'm not busy building things that think, talk, or see, you'll probably find me jamming to music like it's my side hustle, experimenting in the kitchen (success rate varies), planning my next escape across the globe, or rating new cuisines like a one-woman Michelin guide — all while pretending I don't have 32 tabs open.
+                When I’m not busy building things that think, talk, or see, you’ll probably find me jamming to music like it’s my side hustle 🎶, experimenting in the kitchen 🍳, or rating new cuisines like a one-woman Michelin guide 🍜⭐
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -32,7 +32,7 @@ const About = () => {
                   <a href="#contact">Get In Touch</a>
                 </Button>
                 <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                  <a href="https://drive.google.com/file/d/1akaYymijCVxO_Z3mDL5U5GX3Y_Sg-z35/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <a href="https://drive.google.com/file/d/1vo5J7EnUFm_gRTOsFCCRQns_8YGud7Xs/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <Download className="h-4 w-4" /> Download Resume
                   </a>
                 </Button>

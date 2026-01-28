@@ -7,14 +7,14 @@ const education = [
     degree: "M.S in Computer Science",
     institution: "Pennsylvania State University",
     duration: "2024 - 2026 (Expected)",
-    description: "Current GPA: 3.67/4.0. Focusing on Machine Learning, AI applications, and Computer Vision. Conducting research on cognitive narrative classifiers and healthcare applications.",
-    courses: ["Advanced Machine Learning", "Computer Vision", "Natural Language Processing", "Cloud Computing"]
+    description: "Focusing on Machine Learning, AI applications, and Computer Vision. Conducting research on cognitive narrative classifiers and healthcare applications.",
+    courses: ["Advanced Database Management Systems","Data Structures and Algorithms","Theory of Computation","Deep Learning", "Computer Vision", "Natural Language Processing", "Cloud Computing"]
   },
   {
     degree: "B.Tech in Computer Science and Engineering",
     institution: "SRM Institute of Science and Technology, Chennai",
     duration: "2016 - 2020",
-    description: "Graduated with a GPA of 9.1/10. Focused on software engineering and AI applications. Participated in multiple hackathons and research projects.",
+    description: "Focused on software engineering and AI applications. Participated in multiple hackathons and research projects.",
     courses: ["Data Structures & Algorithms", "Artificial Intelligence", "Web Technologies", "Database Management"]
   }
 ];
@@ -70,7 +70,7 @@ const Education = () => {
           </div>
         </div>
         
-        <div className="mt-16">
+        {/* <div className="mt-16">
           <h3 className="text-2xl font-medium mb-6 text-center">Research Focus</h3>
           <Card className="bg-gradient-to-r from-primary/10 to-primary/5 border-none shadow-sm max-w-2xl mx-auto">
             <CardContent className="p-6">
@@ -97,7 +97,7 @@ const Education = () => {
               </ul>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
       </div>
     </section>
   );
