@@ -32,7 +32,7 @@ const About = () => {
                   <a href="#contact">Get In Touch</a>
                 </Button>
                 <Button asChild variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                  <a href="https://drive.google.com/file/d/1vo5J7EnUFm_gRTOsFCCRQns_8YGud7Xs/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <a href="https://drive.google.com/file/d/1KqPWjxQTHaBB_TX1a4T86fJ7r9x1aJxA/view" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                     <Download className="h-4 w-4" /> Download Resume
                   </a>
                 </Button>

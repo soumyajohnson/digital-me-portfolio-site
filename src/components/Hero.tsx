@@ -50,7 +50,7 @@ const Hero = () => {
             <a href="#contact">Contact Me</a>
           </Button>
           <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
-            <a href="https://drive.google.com/file/d/1vo5J7EnUFm_gRTOsFCCRQns_8YGud7Xs/view?usp=drive_link" download className="flex items-center gap-2">
+            <a href="https://drive.google.com/file/d/1KqPWjxQTHaBB_TX1a4T86fJ7r9x1aJxA/view" download className="flex items-center gap-2">
               <Download className="h-4 w-4" /> Resume
             </a>
           </Button>
